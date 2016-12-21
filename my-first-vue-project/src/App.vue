@@ -1,13 +1,13 @@
 <template>
   <div id="app">
   	<div id="nav" class="fl">
-  	<img src="./assets/bg.png" alt="error"/>
+  	<img src="../static/bg.png" alt="error"/>
   	<ul>
   		<li><router-link to="/home">home</router-link></li>
   		<li><router-link to="/todo">todo</router-link></li>
   		<li><router-link to="/game">game</router-link></li>
-  		<li><router-link to="/user">foo</router-link></li>
-  		<li>...<li>
+  		<li><router-link to="/music">music</router-link></li>
+  		<li v-on:click="alert">...<li>
   	</ul>
   	</div>
   	<div id="main" class="fl">
@@ -23,7 +23,11 @@ export default {
   },
   data() {
   	return {
-  		
+  	}
+  },
+  methods:{
+  	alert: function(){
+  		alert('Coming soon _');
   	}
   }
 }
@@ -48,6 +52,7 @@ export default {
 	font-size: 45px;
 	font-family: "agency fb";
 	padding-left: 60px;
+	cursor: pointer;
 }
 #nav a{
 	color: #FBCF9D;

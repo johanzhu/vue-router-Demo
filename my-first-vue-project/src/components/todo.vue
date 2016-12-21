@@ -86,7 +86,7 @@ export default {
 	font-size: 25px;
 	color: #31325F;
 	border-radius: 4px;
-	font-family: "微软雅黑";
+	font-family:  "microsoft yahei";
 }
 #inputBox{
 	text-align: center;
@@ -101,7 +101,7 @@ export default {
 	scrollbar-face-color: #FBCF9D !important;
 }
 #todo li{
-	font-family:"微软雅黑";
+	font-family:"microsoft yahei";
 	text-align: center;
 	font-size: 20px;
 }

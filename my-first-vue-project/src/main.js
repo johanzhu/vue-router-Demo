@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import todo from './components/todo'
 import home from './components/home'
 import game from './components/game'
+import music from './components/music'
 Vue.use(VueRouter)
 
 const User = {
@@ -12,7 +13,7 @@ const User = {
 const router = new VueRouter({
 	routes: [
 	  {path: '/', redirect: '/home'},
-	  {path: '/user/:id', component: User},
+	  {path: '/music', component: music},
 	  {path: '/home' , component: home},
 	  {path: '/todo', component: todo},
 	  {path: '/game', component: game}
