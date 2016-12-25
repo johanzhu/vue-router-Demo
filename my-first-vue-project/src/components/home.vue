@@ -28,6 +28,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@font-face {
+	font-family: "agency fb";
+	src: url(../../static/AgencyFB.ttf);
+}
 #home{
 	height: 200px;
 	padding-left: 300px;

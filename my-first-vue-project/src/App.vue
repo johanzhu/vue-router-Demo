@@ -35,6 +35,10 @@ export default {
 </script>
 
 <style>
+@font-face {
+	font-family: "agency fb";
+	src: url(../static/AgencyFB.ttf);
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

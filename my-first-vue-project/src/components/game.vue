@@ -83,6 +83,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@font-face {
+	font-family: "agency fb";
+	src: url(../../static/AgencyFB.ttf);
+}
 #game{
 	width: 100%;
 	height: 100%;
